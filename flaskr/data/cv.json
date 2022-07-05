@@ -1,0 +1,43 @@
+{
+    "personal" : {
+        "first_name": "Alex",
+        "last_name": "Cernov",
+        "age": 23,
+        "city": "Cluj-Napoca"
+    },
+    "experience" : {
+        "total_in_years" : 2,
+        "projects" : [
+            {
+                "name" : "U-PAX: Distributed crawling system for online shops",
+                "duration_in_months": 3,
+                "technologies_used" : ["Django", "Scrapy", "Scrapyd", "Celery", "RabbitMQ", "Mongo", "Postgres", "Docker", "Docker-compose"] 
+            },
+            {
+                "name" : "Slack - Financial Reporting Tool",
+                "duration_in_months": 1,
+                "technologies_used" : ["AWS", "Flask", "Redis", "Celery", "AWS-RDS", "AWS-LAMBDA", "AWS-EC2", "AWS-IAM", "Boto3", "AWS-S3"] 
+            },
+            {
+                "name" : "Ciclo - Mobile app for bicycle renting",
+                "duration_in_months": 12,
+                "technologies_used" : ["NodeJs", "Firestore", "Google Cloud Function", "Google Cloud Tasks", "StripeAPI"] 
+            }
+        ]
+    },
+    "education" : {
+        "phd" : null, 
+        "masters" : null,
+        "bachelors" : {
+            "university": "Bábes Bolyai University",
+            "faculty" : "Mathematics and Computer Science",
+            "field" : "Computer Science",
+            "city" : "Cluj-Napoca"
+        },
+        "high_school": {
+            "name" : "C.N. Gheorghe Vranceanu",
+            "section" : "Mathematics and Informatics",
+            "city" : "Bacau"
+        }
+    }
+}
