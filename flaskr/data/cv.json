@@ -1,0 +1,37 @@
+{
+    "personal" : {
+        "first_name": "Alex",
+        "last_name": "Cernov",
+        "age": 23,
+        "city": "Cluj-Napoca"
+    },
+    "experience" : {
+        "years" : 2,
+        "technologies" : [
+            {
+                "name" : "Django",
+                "years" : 2
+            },
+            {
+                "name" : "Flask",
+                "years" : 2
+            }
+        ]
+
+    },
+    "education" : {
+        "phd" : null, 
+        "masters" : null,
+        "bachelors" : {
+            "university": "B",
+            "faculty" : "Mathematics and Computer Science",
+            "field" : "Computer Science",
+            "city" : "Cluj-Napoca"
+        },
+        "high_school": {
+            "name" : "C.N. Gheorghe Vranceanu",
+            "section" : "Mathematics and Informatics",
+            "city" : "Bacau"
+        }
+    }
+}
